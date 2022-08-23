@@ -1,0 +1,262 @@
+.logo-el {
+    font-family: Poppins;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+    color: firebrick;
+}
+
+.logo-cap {
+    font-family: Poppins;
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: -3px;
+    padding-top: 0;
+    color: firebrick;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+header {
+    margin-top: 0;
+    background-color: bisque;
+}
+
+.menu {
+    background-color: bisque;
+    padding-bottom: 20px;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.menu li {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: firebrick;
+    font-family: Poppins;
+    font-size: .9rem;
+}
+
+.menu li a:active {
+    background-color: rgb(253, 217, 172);
+}
+
+.about {
+    margin: 8px;
+    font-family: Poppins;
+    margin-top: 40px;
+}
+
+#about-el {
+    scroll-margin-top: 9rem;
+}
+
+.about h1 {
+    font-size: 1.6rem;
+    color: black;
+}
+
+.about article {
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+#featured-el {
+    scroll-margin-top: 9rem;
+}
+
+.featured {
+    /* border: 2px solid black; */
+    font-family: Poppins;
+    margin: 8px;
+    margin-top: 50px;
+}
+
+.featured h1 {
+    font-size: 1.6rem;
+}
+
+.item {
+    /* border: 2px solid red; */
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 6px 15px;
+    margin-bottom: 10px;
+    padding-top: 17px;
+    padding-left: 10px;
+}
+
+.item-info {
+    /* border: 2px soild blue; */
+    margin-left: 15px;
+}
+
+.menu-el {
+    margin: 8px;
+    margin-top: 80px;
+    font-family: Poppins;
+}
+
+.food-menu {
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px black;
+    background-color: bisque;
+    padding: 15px;
+    text-align: justify;
+}
+
+.menu-el h1 {
+    font-size: 1.6rem;
+}
+
+.menu-head {
+    font-family: monospace;
+    text-align: center;
+    color: rgb(143, 18, 18);
+}
+
+/* ₹ */
+
+.price {
+    padding-left: 165px;
+}
+
+#menuel {
+    scroll-margin-top: 9rem;
+}
+
+.contact {
+    font-family: Poppins;
+    margin: 8px;
+    margin-top: 50px;
+}
+
+.contact a {
+    color: black;
+}
+
+.contact a:hover {
+    color: firebrick;
+}
+
+.contact h1 {
+    font-size: 1.6rem;
+}
+
+.details {
+    border: 2px soild red;
+    background-color: bisque;
+    box-shadow: black 0px 5px 15px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#contact-el {
+    scroll-margin-top: 9rem
+}
+
+
+
+.footer-el {
+    margin-top: 60px;
+    background-color: bisque;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    font-family: Poppins;
+}
+
+.footer-el a {
+    color: gray;
+}
+
+.footer-el,
+.copyright p {
+    text-align: center;
+    color: gray;
+}
+
+.socials {
+    padding-left: 20px;
+}
+
+@media (min-width: 500px) {
+
+    .main {
+        padding-left: 8.5%;
+        padding-right: 8.5%;
+    }
+
+    .food-menu {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+}
+
+@media (min-width: 600px) {
+
+    .main {
+        padding-left: 15.5%;
+        padding-right: 15.5%;
+    }
+
+    .food-menu {
+        padding-right: 12.5%;
+        padding-left: 12.5%;
+    }
+
+}
+
+@media (min-width: 900px) {
+
+    .main {
+        padding-left: 19.5%;
+        padding-right: 19.5%;
+    }
+
+    .food-menu {
+        padding-left: 17.5%;
+        padding-right: 17.5%;
+    }
+}
+
+@media (min-width: 1100px) {
+
+    .main {
+        padding-left: 27.5%;
+        padding-right: 27.5%;
+    }
+
+    .food-menu {
+        padding-left: 18.5%;
+        padding-right: 18.5%;
+    }
+
+}
